@@ -19,13 +19,15 @@ Functions Used in two codes::
     output:
         (numpy.ndarray): Gaussian mixture for every point in feature space.
         
-3.dice_similarity(Seg_img, GT_img,state):
+3. dice_similarity(Seg_img, GT_img,state):
+     
      Inputs:
         Seg_img (numpy.ndarray): Segmented Image.
         GT_img (numpy.ndarray): Ground Truth Image.
         State: "nifti" if the images are nifti file
                "arr"   if the images are an ndarray
-    output:
+    
+      output:
         Dice Similarity Coefficient: dice_CSF, dice_GM, dice_WM.
         
 4. Dice_and_Visualization_of_one_slice(Seg_img, GT_img,state,number_of_slice):
